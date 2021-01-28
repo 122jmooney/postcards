@@ -91,6 +91,15 @@
       <p>Made in NY <br />Copyright © Postcard Generator</p>
     </footer>
 
-    <script></script>
+    <script>
+      var states = document.getElementById("states");
+      states.onChange = function () {
+        document.getElementById("postcard").style.backgroundImage = url("img/" + states.value + "@2k.jpg";
+        document.getElementById("greeting") = "Welcome to ";
+        document.getElementById("stateheading");
+        console.log(greeting);
+        console.log(postcard);
+      };
+    </script>
   </body>
 </html>
